@@ -1,0 +1,13 @@
+body {
+    font-family: "Outfit", sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark {
+    background: linear-gradient(135deg, #0a0a0a, #1e1e1e, #333333);
+    color: white;
+}
+
+.dark #header-bg {
+    display: none;
+}
